@@ -1,4 +1,71 @@
-<html>
-Hello World
-<a href = "resume.pdf">resume</a>
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Seiji's Homepage</title>
+    <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+      #content {
+        display: flex;
+        width : 100%;
+        height: 100%;
+      }
+      .column {
+        flex: 1;
+        margin-left : 5%;
+        margin-top : 15%;
+      }
+      h1 {
+        font-family: 'Baloo', serif;
+      }
+      p {
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      a {
+        color : inherit;
+      }
+      i::-moz-selection {
+        background: #fdb515;
+        color: #003262;
+      }
+      i::selection {
+        background: #fdb515;
+        color: #003262;
+      }
+      amp-img {
+          background-color: gray;
+          border: 2px solid #ee1f60;
+      }
+    </style>
+  </head>
+  <body>
+    <div id = "content">
+        <div class = "column">
+          <h1>I'm Seiji!</h1>
+          <p>I study Computer Science and Applied Maths at UC Berkeley. <i>(Go Bears.)</i><br><br>
+            My resume is attached <a href = "resume.pdf" target = "_blank" rel = "noopener noreferrer">here.</a><br><br>
+            You can also check out my <a href = "https://www.linkedin.com/in/seiji-s-065795121/">LinkedIn</a> and <a href = "https://www.github.com/seisaki319">Github.</a>
+            </p>
+        </div>
+        <div class = "column">
+          <amp-img src="picture.jpg" alt="Welcome" height="400" width="400"></amp-img>
+        </div>
+    </div>
+  </body>
 </html>
